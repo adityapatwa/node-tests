@@ -15,8 +15,8 @@ module.exports.asyncSquare = (a, callback) => {
 };
 
 module.exports.setName = (user, fullName) => {
-  let names = fullName.split(' ');
-  user.firstName = names[0];
-  user.lastName = names[1];
-  return user;
+    let names = fullName.split(' ');
+    user.firstName = names[0];
+    user.lastName = names[1];
+    return user;
 };
